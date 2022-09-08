@@ -1,0 +1,20 @@
+{
+  "mqtt": {
+    "url": "mqtt://127.0.0.1",
+    "topic": "/#",
+    "topicConnected": "topicConnected",
+    "secure": true,
+    "username": "admin",
+    "password": "password"
+  },
+  "influxdb": {
+    "host": "127.0.0.1",
+    "port": 8086,
+    "database": "mqtt_data"
+  },
+  "executor": {
+    "runInterval": 100,
+    "batchMinInterval": 1000,
+    "batchMaxItems": 200
+  }
+}
